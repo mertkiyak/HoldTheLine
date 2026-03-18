@@ -12,16 +12,9 @@ namespace Character
         {
             currentHealth = maxHealth; 
             healthBar.SetMaxHealth(maxHealth);
-        }
-        void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.K))
-            {
-                TakeDamage(20);
-            }
-                
-            
-        }
+        } 
+        
+        
         void OnCollisionEnter(Collision collision)
         {
             
@@ -31,7 +24,10 @@ namespace Character
                 HealDamage(20);
                 Destroy(collision.gameObject);
             }
+
+           
         }
+        
 
         public  void TakeDamage(int damage)
         {
