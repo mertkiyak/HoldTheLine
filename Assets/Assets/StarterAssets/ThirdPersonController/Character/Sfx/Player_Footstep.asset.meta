@@ -1,7 +1,8 @@
 fileFormatVersion: 2
-guid: b846ecad8a98bd34dba8a5daf996d86e
-TextScriptImporter:
+guid: 463037fd1054643d5bcc2af48080f87d
+NativeFormatImporter:
   externalObjects: {}
+  mainObjectFileID: 6418180475301049370
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -10,6 +11,6 @@ AssetOrigin:
   productId: 196526
   packageName: Starter Assets - ThirdPerson | Updates in new CharacterController
     package
-  packageVersion: 1.1.5
-  assetPath: Assets/StarterAssets/license.txt
-  uploadId: 691128
+  packageVersion: 1.1.7
+  assetPath: Assets/Assets/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep.asset
+  uploadId: 879174
